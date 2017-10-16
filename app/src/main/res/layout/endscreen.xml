@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff895"
+    android:weightSum="1"
+    android:id="@+id/endButton">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:id="@+id/imageView3"
+        android:background="@drawable/uwontxt"
+        android:layout_marginTop="100dp" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/imageButton2"
+        android:background="@drawable/restartbutton"
+        android:layout_marginTop="150dp" />
+</LinearLayout>
